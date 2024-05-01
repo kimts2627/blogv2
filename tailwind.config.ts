@@ -18,6 +18,12 @@ const config: Config = {
       borderWidth: {
         "1": "1px",
       },
+      maxWidth: {
+        default: "720px",
+      },
+      height: {
+        layout: "calc(100vh - 64px)",
+      },
     },
   },
   plugins: [],
